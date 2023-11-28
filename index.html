@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title> 
+    <link rel="stylesheet" type="text/css" href="style.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100&display=swap" rel="stylesheet">
+</head>
+<body class="background-img"> 
+<img src="./logo.png" class="logo"> 
+<div class="banner-text">  
+
+   <h1>Hair Studio</h1> 
+   <p>Styling Your Hair Styling Your Life</p> 
+   <div class="banner-button">
+     <a href="#" class="btn btn-outline-secondary"><span></span>Find Out</a> 
+     <a href="#" class="btn btn-outline-secondary"><span></span>Read More</a>
+   </div>
+  <div id="navigation"> 
+    <nav> 
+         <ul> 
+            <li><a href="#">HOME</a></li> 
+            <li><a href="#">FEATURES</a></li> 
+            <li><a href="#">SERVICE</a></li> 
+            <li><a href="#">FEEDBACK</a></li> 
+            <li><a href="#">CONTACT</a></li> 
+            
+         </ul>
+
+    </nav>
+  </div> 
+  <div id="menubutton">  
+    <img src="./menu.png" id="menu">
+
+  </div>  
+  <section id="Feature">
+  <div class="title-text"> 
+    <h2>FEATURES</h2> 
+    <p>Why Choose Us ?</p> 
+  </div>  
+  <div class="container-fluid">
+    <div class="carousel slide" data-ride="carousel" id="carousel">
+  
+       <ol class="carousel-indicators">
+         <li data-target="#carousel" data-slide to="0" class="active"></li>
+         <li data-target="#carousel" data-slide to="1"></li>
+       </ol>
+  
+       <div class="carousel-inner">
+         <div class="item active">
+           <img src="./feature2.jpg" class="feature-img">
+           <div class="carousel-caption">
+            <h2><b>Experienced Staff</b></h2>
+            <p>Our salon boasts a team of highly skilled and experienced barbers dedicated to providing exceptional hair services</p>
+          </div>
+         </div>
+         <div class="item">
+           <img src="./feature1.jpg" class="feature-img">
+           <div class="carousel-caption">
+            <h2><b>Affordable Price</b></h2>
+            <p>Indulge in a touch of luxury without breaking the bank at our saloon, where quality services meet affordable prices for a pampering experience that won't empty your wallet</p>
+          </div>
+         </div>
+      </div>
+  
+      <a class="carousel-control left" href="#carousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="carousel-control right" href="#carousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div> 
+  </div>
+</section>
+<!-- Main Section, Form -->
+<main>
+  <div class="title-textt"> 
+    <h2>Book an Appointment Today!</h2>  
+  </div>  
+  <div class="hform">
+    <div class="input-group mb-3">
+      <label for="f1">Name:</label>
+      <input id="f1" type="text" class="form-control" placeholder="Recipient's Name" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+    </div>
+    <div class="input-group mb-3">
+      <label for="f2">Email Address:</label>
+      <input id="f2" type="email" class="form-control" placeholder="Recipient's Email" aria-label="Recipient's username" aria-describedby="inputGroup-sizing-lg">
+    </div>
+    <div class="input-group mb-3">
+      <label for="f3">Phone Number:</label>
+      <input id="f3" type="tel" class="form-control" placeholder="Recipient's Number" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+    </div>
+    <div class="input-group mb-3">
+      <label for="f4">Select Appointment Date:</label>
+      <input id="f4" type="date" class="form-control" placeholder="Date" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+    </div>
+    <div class="input-group mb-3">
+      <label for="f5">Choose Time:</label>
+      <input id="f5" type="time" class="form-control" placeholder="Preferred Time" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+    </div>
+    <div class="form-check form-check-inline input-group mb-3">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+      <label class="form-check-label" for="inlineRadio1">Male</label>
+    </div>
+    <div class="form-check form-check-inline input-group mb-3">
+      <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+      <label class="form-check-label" for="inlineRadio2">Female</label>
+    </div>
+    <div class="input-group mb-3">
+      <button type="reset" class="btn btn-primary btn-lg fbutton" role="submit">Submit</button>
+    </div>
+  </div>
+  
+
+</main>
+<!-- Footer Code -->
+<footer>
+<div class="footerContainer">
+  <div class="socialIcons">
+    <a href=""><i class="fa-brands fa-facebook"></i></a>
+    <a href=""><i class="fa-brands fa-instagram"></i></a>
+    <a href=""><i class="fa-brands fa-twitter"></i></a>
+    <a href=""><i class="fa-brands fa-google-plus"></i></a>
+    <a href=""><i class="fa-brands fa-youtube"></i></a>
+  </div>
+  <div class="footerBottom">
+    <p>Copyright &copy;2023; Designed by K23KS-26,27,28</p>
+  </div>
+</div>
+</footer>
+
+</body>
+<script src="script.js"></script>
+</html>
